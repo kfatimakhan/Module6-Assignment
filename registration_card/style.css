@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#6873DA, #7258B3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.registration{
+    background: #fff;
+    height: 15rem;
+    width: 38rem;
+    padding: 3rem;
+}
+.registration h3{
+    text-align: center;
+    margin-top: 0;
+}
+.registration label{
+    font-weight: bold;
+}
+.registration_form_input{
+    margin-bottom: 1rem;
+}
+.registration_form_span{
+    margin-left: 1rem;
+}
