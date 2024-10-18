@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(#6873da, #7258b3);
+  background-image: linear-gradient(260deg,#c668de, #57a3b1);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
@@ -42,7 +42,7 @@ body {
   margin-right: 0.6rem;
 }
 .submit_btn {
-  background-image: linear-gradient(#6875DE, #7157B1);;
+  background-image: linear-gradient(135deg,#c668de, #57a3b1);;
   padding: 0.7rem;
   border-radius: 8px;
   border: none;

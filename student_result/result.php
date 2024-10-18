@@ -1,31 +1,39 @@
 <?php
 
-$total = 40+55+65+70+80;
-echo "Total Marks:$total.<br/>";
-$mark=70;
-$avg = ($total / 5);
-echo "Average Marks: $avg.<br/>";
-echo "Grade: ";
+function calculateResult($sub1,$sub2,$sub3,$sub4,$sub5) {
+    global $total;
+    $total = $sub1+$sub2+$sub3+$sub4+$sub5;
+    echo "Total Marks: $total.<br/>";
+}
+    
+    calculateResult(60,70,80,90,40);
+    $averageMarks = $total / 5;
+    echo "Average Marks: $averageMarks.<br/>";
 switch (true) {
-    case ($mark <= 100 && $mark >= 80):
-        echo "A+";
+    case ($averageMarks <= 100 && $averageMarks >= 80):
+        echo "Grade: A+";
         break;
-    case ($mark <= 79 && $mark >= 70):
-        echo "A";
+    case ($averageMarks <= 79 && $averageMarks >= 70):
+        echo "Grade: A";
         break;
-    case ($mark <= 69 && $mark >= 60):
-        echo "A-";
+    case ($averageMarks <= 69 && $averageMarks >= 60):
+        echo "Grade: A-";
         break;
-    case ($mark <= 59 && $mark >= 50):
-        echo "B";
+    case ($averageMarks <= 59 && $averageMarks >= 50):
+        echo "Grade: B";
         break;
-    case ($mark <= 49 && $mark >= 40):
-        echo "C";
+    case ($averageMarks <= 49 && $averageMarks >= 40):
+        echo "Grade: C";
         break;
-    case ($mark <= 39 && $mark >= 30):
-        echo "D";
+    case ($averageMarks <= 39 && $averageMarks >= 30):
+        echo "Grade: D";
+        break;
+    case ($averageMarks <= 33 && $averageMarks > 0):
+        echo "Grade: F";
         break;
     default:
-        echo "F";
+        echo "Mark range is invalid.";
 }
 
+
+        
