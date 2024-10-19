@@ -5,10 +5,14 @@ function calculateResult($sub1,$sub2,$sub3,$sub4,$sub5) {
     $total = $sub1+$sub2+$sub3+$sub4+$sub5;
     echo "Total Marks: $total.<br/>";
 }
-    
-    calculateResult(60,70,80,90,40);
-    $averageMarks = $total / 5;
-    echo "Average Marks: $averageMarks.<br/>";
+
+
+calculateResult(60,70,80,90,40);
+
+$averageMarks = $total / 5;
+echo "Average Marks: $averageMarks.<br/>";
+
+
 switch (true) {
     case ($averageMarks <= 100 && $averageMarks >= 80):
         echo "Grade: A+";
@@ -36,4 +40,3 @@ switch (true) {
 }
 
 
-        

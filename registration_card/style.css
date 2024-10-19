@@ -9,6 +9,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 1rem;
 }
 .registration {
   background: #fff;
@@ -20,6 +21,7 @@ body {
 }
 .registration h2 {
   text-align: center;
+  font-size: 1.5rem;
   margin-top: 0;
   margin-bottom: 2rem;
 }
