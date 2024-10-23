@@ -7,7 +7,7 @@ function calculateResult($sub1,$sub2,$sub3,$sub4,$sub5) {
 }
 
 
-calculateResult(60,70,80,90,40);
+calculateResult(30,30,30,40,30);
 
 $averageMarks = $total / 5;
 echo "Average Marks: $averageMarks.<br/>";
@@ -29,7 +29,7 @@ switch (true) {
     case ($averageMarks <= 49 && $averageMarks >= 40):
         echo "Grade: C";
         break;
-    case ($averageMarks <= 39 && $averageMarks >= 30):
+    case ($averageMarks <= 39 && $averageMarks >= 33):
         echo "Grade: D";
         break;
     case ($averageMarks <= 33 && $averageMarks > 0):
